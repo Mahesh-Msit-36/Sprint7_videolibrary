@@ -1,0 +1,18 @@
+{
+    "Feedback.css": [
+        {
+            "operation": "PASTE",
+            "lines": 82,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:25:23",
+            "keyStrokeInfo": "@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');\r\n\r\n* {\r\n  box-sizing: border-box;\r\n}\r\n.form-group {   \r\n    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.171);\r\n    font-family: 'Fira Sans', sans-serif;\r\n    margin: 0px auto;\r\n    padding: 20px;\r\n    border-radius: 10px;    \r\n    width: 400px;\r\n}\r\n\r\nbody {\r\n    background: #1C8EF9 !important;\r\n    min-height: 100vh;\r\n    display: flex;\r\n    font-weight: 400;\r\n    font-family: 'Fira Sans', sans-serif;\r\n  }\r\n\r\nh1,h2,h3,h4,h5,h6,label,span {\r\n  font-weight: 500;\r\n  font-family: 'Fira Sans', sans-serif;\r\n}\r\n\r\nbody, html, .App, #root, .auth-wrapper {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.navbar-light {\r\n  background-color: #ffffff;\r\n  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);\r\n}\r\n\r\n.auth-wrapper {\r\n  display: flex;\r\n  justify-content: center;\r\n  flex-direction: column;\r\n  text-align: left;\r\n}\r\n\r\n.auth-inner {\r\n  width: 450px;\r\n  margin: auto;\r\n  background: #ffffff;\r\n  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);\r\n  padding: 40px 55px 45px 55px;\r\n  border-radius: 15px;\r\n  transition: all .3s;\r\n}\r\n\r\n.auth-wrapper .form-control:focus {\r\n  border-color: #167bff;\r\n  box-shadow: none;\r\n}\r\n\r\n.auth-wrapper h3 {\r\n  text-align: center;\r\n  margin: 0;\r\n  line-height: 1;\r\n  padding-bottom: 20px;\r\n}\r\n\r\n.custom-control-label {\r\n  font-weight: 400;\r\n}\r\n\r\n.forgot-password,\r\n.forgot-password a {\r\n  text-align: right;\r\n  font-size: 13px;\r\n  padding-top: 10px;\r\n  color: #7f7d7d;\r\n  margin: 0;\r\n}\r\n\r\n.forgot-password a {\r\n  color: #167bff;\r\n}",
+            "position": "1,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 27,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:26:38",
+            "keyStrokeInfo": ".gender{\r\n    padding-right: 30px;\r\n    padding-top: 10px;\r\n    padding-bottom: 20px;\r\n}\r\n\r\n.form{\r\n    font-family: Verdana, Geneva, Tahoma, sans-serif;\r\n    margin-top: 50px;\r\n    margin-right: 50px;\r\n}\r\n\r\n.form_fill{\r\n    margin: 40px 0px 0px 40px;\r\n}\r\n\r\nh2{\r\n    font-size: 25px;\r\n}\r\n\r\nbutton{\r\n    margin-top: 30px;\r\n}\r\n\r\n.fbList{\r\n    margin-left: 50px;\r\n}",
+            "position": "1,1"
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "Login.js": [
+        {
+            "operation": "PASTE",
+            "lines": 30,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 09:46:11",
+            "keyStrokeInfo": "import React from \"react\";\r\nimport { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdbreact';\r\n\r\nconst FormPage = () => {\r\nreturn (\r\n<MDBContainer>\r\n  <MDBRow>\r\n    <MDBCol md=\"6\">\r\n      <form>\r\n        <p className=\"h4 text-center mb-4\">Sign in</p>\r\n        <label htmlFor=\"defaultFormLoginEmailEx\" className=\"grey-text\">\r\n          Your email\r\n        </label>\r\n        <input type=\"email\" id=\"defaultFormLoginEmailEx\" className=\"form-control\" />\r\n        <br />\r\n        <label htmlFor=\"defaultFormLoginPasswordEx\" className=\"grey-text\">\r\n          Your password\r\n        </label>\r\n        <input type=\"password\" id=\"defaultFormLoginPasswordEx\" className=\"form-control\" />\r\n        <div className=\"text-center mt-4\">\r\n          <MDBBtn color=\"indigo\" type=\"submit\">Login</MDBBtn>\r\n        </div>\r\n      </form>\r\n    </MDBCol>\r\n  </MDBRow>\r\n</MDBContainer>\r\n);\r\n};\r\n\r\nexport default FormPage;",
+            "position": "1,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 33,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 09:59:04",
+            "keyStrokeInfo": "import React, { Component } from \"react\";\r\n\r\nexport default class Login extends Component {\r\n    render() {\r\n        return (\r\n            <form>\r\n                <h3>Sign In</h3>\r\n\r\n                <div className=\"form-group\">\r\n                    <label>Email address</label>\r\n                    <input type=\"email\" className=\"form-control\" placeholder=\"Enter email\" />\r\n                </div>\r\n\r\n                <div className=\"form-group\">\r\n                    <label>Password</label>\r\n                    <input type=\"password\" className=\"form-control\" placeholder=\"Enter password\" />\r\n                </div>\r\n\r\n                <div className=\"form-group\">\r\n                    <div className=\"custom-control custom-checkbox\">\r\n                        <input type=\"checkbox\" className=\"custom-control-input\" id=\"customCheck1\" />\r\n                        <label className=\"custom-control-label\" htmlFor=\"customCheck1\">Remember me</label>\r\n                    </div>\r\n                </div>\r\n\r\n                <button type=\"submit\" className=\"btn btn-primary btn-block\">Submit</button>\r\n                <p className=\"forgot-password text-right\">\r\n                    Forgot <a href=\"#\">password?</a>\r\n                </p>\r\n            </form>\r\n        );\r\n    }\r\n}",
+            "position": "1,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:23:32",
+            "keyStrokeInfo": "",
+            "position": "23,21"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:23:38",
+            "keyStrokeInfo": "\r\n            ",
+            "position": "29,20"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:23:41",
+            "keyStrokeInfo": "",
+            "position": "30,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:23:41",
+            "keyStrokeInfo": "",
+            "position": "30,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:23:42",
+            "keyStrokeInfo": "",
+            "position": "30,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:23:42",
+            "keyStrokeInfo": "",
+            "position": "29,20"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:23:44",
+            "keyStrokeInfo": "\r\n                ",
+            "position": "28,21"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:23:46",
+            "keyStrokeInfo": "</div>\r\n                </div>",
+            "position": "29,17"
+        }
+    ],
+    "Login.css": [
+        {
+            "operation": "PASTE",
+            "lines": 27,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 09:48:21",
+            "keyStrokeInfo": ".gender{\r\n    padding-right: 30px;\r\n    padding-top: 10px;\r\n    padding-bottom: 20px;\r\n}\r\n\r\n.form{\r\n    font-family: Verdana, Geneva, Tahoma, sans-serif;\r\n    margin-top: 50px;\r\n    margin-right: 50px;\r\n}\r\n\r\n.form_fill{\r\n    margin: 40px 0px 0px 40px;\r\n}\r\n\r\nh2{\r\n    font-size: 25px;\r\n}\r\n\r\nbutton{\r\n    margin-top: 30px;\r\n}\r\n\r\n.fbList{\r\n    margin-left: 50px;\r\n}",
+            "position": "1,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 09:54:01",
+            "keyStrokeInfo": "",
+            "position": "1,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 73,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:02:16",
+            "keyStrokeInfo": "@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');\r\n\r\n* {\r\n  box-sizing: border-box;\r\n}\r\nbody {\r\n  background: #1C8EF9 !important;\r\n  min-height: 100vh;\r\n  display: flex;\r\n  font-weight: 400;\r\n  font-family: 'Fira Sans', sans-serif;\r\n}\r\n\r\nh1,h2,h3,h4,h5,h6,label,span {\r\n  font-weight: 500;\r\n  font-family: 'Fira Sans', sans-serif;\r\n}\r\n\r\nbody, html, .App, #root, .auth-wrapper {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.navbar-light {\r\n  background-color: #ffffff;\r\n  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);\r\n}\r\n\r\n.auth-wrapper {\r\n  display: flex;\r\n  justify-content: center;\r\n  flex-direction: column;\r\n  text-align: left;\r\n}\r\n\r\n.auth-inner {\r\n  width: 450px;\r\n  margin: auto;\r\n  background: #ffffff;\r\n  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);\r\n  padding: 40px 55px 45px 55px;\r\n  border-radius: 15px;\r\n  transition: all .3s;\r\n}\r\n\r\n.auth-wrapper .form-control:focus {\r\n  border-color: #167bff;\r\n  box-shadow: none;\r\n}\r\n\r\n.auth-wrapper h3 {\r\n  text-align: center;\r\n  margin: 0;\r\n  line-height: 1;\r\n  padding-bottom: 20px;\r\n}\r\n\r\n.custom-control-label {\r\n  font-weight: 400;\r\n}\r\n\r\n.forgot-password,\r\n.forgot-password a {\r\n  text-align: right;\r\n  font-size: 13px;\r\n  padding-top: 10px;\r\n  color: #7f7d7d;\r\n  margin: 0;\r\n}\r\n\r\n.forgot-password a {\r\n  color: #167bff;\r\n}",
+            "position": "1,1"
+        }
+    ]
+}

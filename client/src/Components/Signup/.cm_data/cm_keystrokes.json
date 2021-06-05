@@ -1,0 +1,496 @@
+{
+    "Signup.js": [
+        {
+            "operation": "PASTE",
+            "lines": 36,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:06:22",
+            "keyStrokeInfo": "import React, { Component } from \"react\";\r\n\r\nexport default class SignUp extends Component {\r\n    render() {\r\n        return (\r\n            <form>\r\n                <h3>Sign Up</h3>\r\n\r\n                <div className=\"form-group\">\r\n                    <label>First name</label>\r\n                    <input type=\"text\" className=\"form-control\" placeholder=\"First name\" />\r\n                </div>\r\n\r\n                <div className=\"form-group\">\r\n                    <label>Last name</label>\r\n                    <input type=\"text\" className=\"form-control\" placeholder=\"Last name\" />\r\n                </div>\r\n\r\n                <div className=\"form-group\">\r\n                    <label>Email address</label>\r\n                    <input type=\"email\" className=\"form-control\" placeholder=\"Enter email\" />\r\n                </div>\r\n\r\n                <div className=\"form-group\">\r\n                    <label>Password</label>\r\n                    <input type=\"password\" className=\"form-control\" placeholder=\"Enter password\" />\r\n                </div>\r\n\r\n                <button type=\"submit\" className=\"btn btn-primary btn-block\">Sign Up</button>\r\n                <p className=\"forgot-password text-right\">\r\n                    Already registered <a href=\"#\">sign in?</a>\r\n                </p>\r\n            </form>\r\n        );\r\n    }\r\n}",
+            "position": "1,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:20:06",
+            "keyStrokeInfo": "i",
+            "position": "2,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:20:06",
+            "keyStrokeInfo": "m",
+            "position": "2,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:20:07",
+            "keyStrokeInfo": "p",
+            "position": "2,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:20:07",
+            "keyStrokeInfo": "o",
+            "position": "2,4"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:20:07",
+            "keyStrokeInfo": "r",
+            "position": "2,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:20:07",
+            "keyStrokeInfo": "t",
+            "position": "2,6"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:20:08",
+            "keyStrokeInfo": " ",
+            "position": "2,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:20:11",
+            "keyStrokeInfo": "''",
+            "position": "2,8"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:20:20",
+            "keyStrokeInfo": ".",
+            "position": "2,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:20:21",
+            "keyStrokeInfo": "/",
+            "position": "2,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:21:00",
+            "keyStrokeInfo": "S",
+            "position": "2,11"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:21:00",
+            "keyStrokeInfo": "i",
+            "position": "2,12"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:21:00",
+            "keyStrokeInfo": "g",
+            "position": "2,13"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:21:00",
+            "keyStrokeInfo": "n",
+            "position": "2,14"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:21:01",
+            "keyStrokeInfo": "u",
+            "position": "2,15"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:21:02",
+            "keyStrokeInfo": "p",
+            "position": "2,16"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:21:02",
+            "keyStrokeInfo": ".",
+            "position": "2,17"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:21:03",
+            "keyStrokeInfo": "c",
+            "position": "2,18"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:21:03",
+            "keyStrokeInfo": "s",
+            "position": "2,19"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:21:04",
+            "keyStrokeInfo": "s",
+            "position": "2,20"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:22:37",
+            "keyStrokeInfo": "",
+            "position": "29,17"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:22:45",
+            "keyStrokeInfo": "\r\n                    ",
+            "position": "26,100"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 4,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:22:48",
+            "keyStrokeInfo": "<button type=\"submit\" className=\"btn btn-primary btn-block\">Sign Up</button>\r\n                <p className=\"forgot-password text-right\">\r\n                    Already registered <a href=\"#\">sign in?</a>\r\n                </p>",
+            "position": "27,21"
+        }
+    ],
+    "Signup.css": [
+        {
+            "operation": "PASTE",
+            "lines": 36,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:07:55",
+            "keyStrokeInfo": "import React, { Component } from \"react\";\r\n\r\nexport default class SignUp extends Component {\r\n    render() {\r\n        return (\r\n            <form>\r\n                <h3>Sign Up</h3>\r\n\r\n                <div className=\"form-group\">\r\n                    <label>First name</label>\r\n                    <input type=\"text\" className=\"form-control\" placeholder=\"First name\" />\r\n                </div>\r\n\r\n                <div className=\"form-group\">\r\n                    <label>Last name</label>\r\n                    <input type=\"text\" className=\"form-control\" placeholder=\"Last name\" />\r\n                </div>\r\n\r\n                <div className=\"form-group\">\r\n                    <label>Email address</label>\r\n                    <input type=\"email\" className=\"form-control\" placeholder=\"Enter email\" />\r\n                </div>\r\n\r\n                <div className=\"form-group\">\r\n                    <label>Password</label>\r\n                    <input type=\"password\" className=\"form-control\" placeholder=\"Enter password\" />\r\n                </div>\r\n\r\n                <button type=\"submit\" className=\"btn btn-primary btn-block\">Sign Up</button>\r\n                <p className=\"forgot-password text-right\">\r\n                    Already registered <a href=\"#\">sign in?</a>\r\n                </p>\r\n            </form>\r\n        );\r\n    }\r\n}",
+            "position": "1,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 73,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:14:25",
+            "keyStrokeInfo": "@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');\r\n\r\n* {\r\n  box-sizing: border-box;\r\n}\r\nbody {\r\n  background: #1C8EF9 !important;\r\n  min-height: 100vh;\r\n  display: flex;\r\n  font-weight: 400;\r\n  font-family: 'Fira Sans', sans-serif;\r\n}\r\n\r\nh1,h2,h3,h4,h5,h6,label,span {\r\n  font-weight: 500;\r\n  font-family: 'Fira Sans', sans-serif;\r\n}\r\n\r\nbody, html, .App, #root, .auth-wrapper {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.navbar-light {\r\n  background-color: #ffffff;\r\n  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);\r\n}\r\n\r\n.auth-wrapper {\r\n  display: flex;\r\n  justify-content: center;\r\n  flex-direction: column;\r\n  text-align: left;\r\n}\r\n\r\n.auth-inner {\r\n  width: 450px;\r\n  margin: auto;\r\n  background: #ffffff;\r\n  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);\r\n  padding: 40px 55px 45px 55px;\r\n  border-radius: 15px;\r\n  transition: all .3s;\r\n}\r\n\r\n.auth-wrapper .form-control:focus {\r\n  border-color: #167bff;\r\n  box-shadow: none;\r\n}\r\n\r\n.auth-wrapper h3 {\r\n  text-align: center;\r\n  margin: 0;\r\n  line-height: 1;\r\n  padding-bottom: 20px;\r\n}\r\n\r\n.custom-control-label {\r\n  font-weight: 400;\r\n}\r\n\r\n.forgot-password,\r\n.forgot-password a {\r\n  text-align: right;\r\n  font-size: 13px;\r\n  padding-top: 10px;\r\n  color: #7f7d7d;\r\n  margin: 0;\r\n}\r\n\r\n.forgot-password a {\r\n  color: #167bff;\r\n}",
+            "position": "1,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:15:14",
+            "keyStrokeInfo": "\r\n",
+            "position": "5,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 73,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:15:16",
+            "keyStrokeInfo": "@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');\r\n\r\n* {\r\n  box-sizing: border-box;\r\n}\r\nbody {\r\n  background: #1C8EF9 !important;\r\n  min-height: 100vh;\r\n  display: flex;\r\n  font-weight: 400;\r\n  font-family: 'Fira Sans', sans-serif;\r\n}\r\n\r\nh1,h2,h3,h4,h5,h6,label,span {\r\n  font-weight: 500;\r\n  font-family: 'Fira Sans', sans-serif;\r\n}\r\n\r\nbody, html, .App, #root, .auth-wrapper {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.navbar-light {\r\n  background-color: #ffffff;\r\n  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);\r\n}\r\n\r\n.auth-wrapper {\r\n  display: flex;\r\n  justify-content: center;\r\n  flex-direction: column;\r\n  text-align: left;\r\n}\r\n\r\n.auth-inner {\r\n  width: 450px;\r\n  margin: auto;\r\n  background: #ffffff;\r\n  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);\r\n  padding: 40px 55px 45px 55px;\r\n  border-radius: 15px;\r\n  transition: all .3s;\r\n}\r\n\r\n.auth-wrapper .form-control:focus {\r\n  border-color: #167bff;\r\n  box-shadow: none;\r\n}\r\n\r\n.auth-wrapper h3 {\r\n  text-align: center;\r\n  margin: 0;\r\n  line-height: 1;\r\n  padding-bottom: 20px;\r\n}\r\n\r\n.custom-control-label {\r\n  font-weight: 400;\r\n}\r\n\r\n.forgot-password,\r\n.forgot-password a {\r\n  text-align: right;\r\n  font-size: 13px;\r\n  padding-top: 10px;\r\n  color: #7f7d7d;\r\n  margin: 0;\r\n}\r\n\r\n.forgot-password a {\r\n  color: #167bff;\r\n}",
+            "position": "6,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 72,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:15:26",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 73,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:15:31",
+            "keyStrokeInfo": "@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');\r\n\r\n* {\r\n  box-sizing: border-box;\r\n}\r\nbody {\r\n  background: #1C8EF9 !important;\r\n  min-height: 100vh;\r\n  display: flex;\r\n  font-weight: 400;\r\n  font-family: 'Fira Sans', sans-serif;\r\n}\r\n\r\nh1,h2,h3,h4,h5,h6,label,span {\r\n  font-weight: 500;\r\n  font-family: 'Fira Sans', sans-serif;\r\n}\r\n\r\nbody, html, .App, #root, .auth-wrapper {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.navbar-light {\r\n  background-color: #ffffff;\r\n  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);\r\n}\r\n\r\n.auth-wrapper {\r\n  display: flex;\r\n  justify-content: center;\r\n  flex-direction: column;\r\n  text-align: left;\r\n}\r\n\r\n.auth-inner {\r\n  width: 450px;\r\n  margin: auto;\r\n  background: #ffffff;\r\n  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);\r\n  padding: 40px 55px 45px 55px;\r\n  border-radius: 15px;\r\n  transition: all .3s;\r\n}\r\n\r\n.auth-wrapper .form-control:focus {\r\n  border-color: #167bff;\r\n  box-shadow: none;\r\n}\r\n\r\n.auth-wrapper h3 {\r\n  text-align: center;\r\n  margin: 0;\r\n  line-height: 1;\r\n  padding-bottom: 20px;\r\n}\r\n\r\n.custom-control-label {\r\n  font-weight: 400;\r\n}\r\n\r\n.forgot-password,\r\n.forgot-password a {\r\n  text-align: right;\r\n  font-size: 13px;\r\n  padding-top: 10px;\r\n  color: #7f7d7d;\r\n  margin: 0;\r\n}\r\n\r\n.forgot-password a {\r\n  color: #167bff;\r\n}",
+            "position": "6,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 72,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:15:47",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:16:12",
+            "keyStrokeInfo": ".center {\r\n  margin: auto;\r\n  width: 60%;\r\n  border: 3px solid #73AD21;\r\n  padding: 10px;\r\n}",
+            "position": "6,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:16:12",
+            "keyStrokeInfo": "    ",
+            "position": "11,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:16:24",
+            "keyStrokeInfo": "",
+            "position": "6,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:16:24",
+            "keyStrokeInfo": "",
+            "position": "6,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:16:24",
+            "keyStrokeInfo": "",
+            "position": "6,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:16:24",
+            "keyStrokeInfo": "",
+            "position": "6,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:16:24",
+            "keyStrokeInfo": "",
+            "position": "6,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:16:25",
+            "keyStrokeInfo": "",
+            "position": "6,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:16:26",
+            "keyStrokeInfo": "f",
+            "position": "6,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:16:26",
+            "keyStrokeInfo": "o",
+            "position": "6,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:16:26",
+            "keyStrokeInfo": "r",
+            "position": "6,4"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:16:27",
+            "keyStrokeInfo": "m",
+            "position": "6,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:16:27",
+            "keyStrokeInfo": "-",
+            "position": "6,6"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:16:28",
+            "keyStrokeInfo": "g",
+            "position": "6,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:16:28",
+            "keyStrokeInfo": "r",
+            "position": "6,8"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:16:28",
+            "keyStrokeInfo": "o",
+            "position": "6,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:16:29",
+            "keyStrokeInfo": "u",
+            "position": "6,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:16:29",
+            "keyStrokeInfo": "p",
+            "position": "6,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:17:47",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:18:13",
+            "keyStrokeInfo": ".form-group {   \r\n    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.171);\r\n    font-family: 'Fira Sans', sans-serif;\r\n    margin: 0px auto;\r\n    padding: 20px;\r\n    border-radius: 10px;    \r\n    width: 400px;\r\n}\r\n",
+            "position": "6,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:18:26",
+            "keyStrokeInfo": "/",
+            "position": "15,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:18:26",
+            "keyStrokeInfo": "/",
+            "position": "15,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:18:28",
+            "keyStrokeInfo": "",
+            "position": "15,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:18:28",
+            "keyStrokeInfo": "",
+            "position": "15,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:18:29",
+            "keyStrokeInfo": "<",
+            "position": "15,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:18:30",
+            "keyStrokeInfo": "!",
+            "position": "15,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:18:38",
+            "keyStrokeInfo": ">",
+            "position": "21,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:18:38",
+            "keyStrokeInfo": ">",
+            "position": "21,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:18:40",
+            "keyStrokeInfo": "-",
+            "position": "21,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:18:41",
+            "keyStrokeInfo": "-",
+            "position": "21,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:18:42",
+            "keyStrokeInfo": "",
+            "position": "21,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:18:42",
+            "keyStrokeInfo": "",
+            "position": "21,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:18:44",
+            "keyStrokeInfo": "",
+            "position": "21,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:18:44",
+            "keyStrokeInfo": "",
+            "position": "21,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:18:48",
+            "keyStrokeInfo": "",
+            "position": "15,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:18:49",
+            "keyStrokeInfo": "",
+            "position": "15,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:18:56",
+            "keyStrokeInfo": "",
+            "position": "15,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 7,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:19:28",
+            "keyStrokeInfo": "body {\r\n  background: #1C8EF9 !important;\r\n  min-height: 100vh;\r\n  display: flex;\r\n  font-weight: 400;\r\n  font-family: 'Fira Sans', sans-serif;\r\n}",
+            "position": "15,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jun 02 2021 10:19:28",
+            "keyStrokeInfo": "    ",
+            "position": "21,1"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+.footer{
+    background-color: #00adb5;
+    color: #eeeeee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.upper_footer{
+    height: 180px;
+    justify-content: center;
+}
+.btm{
+    background-color: #222831;
+    padding: auto;
+    font-size: 19px;
+    padding: 5px 0px;
+}
