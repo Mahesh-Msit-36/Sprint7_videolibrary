@@ -1,9 +1,9 @@
 import React, {useState, useEffect } from 'react'
-import './Psc.css'
+import './Ids.css'
 
 import Axios from 'axios';
 
-function Psc() {
+function Ids1() {
   
 
     const[VidId, setVidId] = useState('');
@@ -13,13 +13,13 @@ function Psc() {
     const[fb_list, setfb_List] = useState([]);
   
     useEffect(()=>{
-      Axios.get("http://localhost:4001/Psc1").then((response)=>{
+      Axios.get("http://localhost:4001/Ids2").then((response)=>{
         setfb_List(response.data)
       })
     }, [])
   
     var handleSubmit = () =>{
-      Axios.post('http://localhost:4001/Psc1', {VidId: VidId, CourseID: CourseID, Videourl:Videourl,  Description:Description }).then(()=>{
+      Axios.post('http://localhost:4001/Ids2', {VidId: VidId, CourseID: CourseID, Videourl:Videourl,  Description:Description }).then(()=>{
           alert("success")
       });
       
@@ -30,7 +30,7 @@ function Psc() {
     return (
       <div>
         <div className="form text-center" >
-            <h1>PSC Form</h1>
+            <h1>IDS Form</h1>
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
               Launch demo modal
             </button>
@@ -69,8 +69,6 @@ function Psc() {
                         </div>
                         
                         
-    
-                        
 
                         <div>
                         <label> Description</label>
@@ -98,5 +96,5 @@ function Psc() {
     )
 }
 
-export default Psc
+export default Ids1
 

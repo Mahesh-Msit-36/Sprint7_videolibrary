@@ -2,15 +2,16 @@ import React, {useState, useEffect } from 'react'
 import Axios from 'axios';
 
 
-function Psc1() {
-const [search, setSearch] = useState('')
+function Dbms2() {
+  const [search, setSearch] = useState('')
 const[it_list, setit_list] = useState([]);
 
   useEffect(()=>{
-    Axios.get("http://localhost:4001/Psc1").then((response)=>{
+    Axios.get("http://localhost:4001/Dbms2").then((response)=>{
       setit_list(response.data)
     })
    }, [])
+
    return(
     <div>
       <div>
@@ -81,5 +82,4 @@ const[it_list, setit_list] = useState([]);
 }
 
 
-
-export default Psc1
+export default Dbms2

@@ -2,15 +2,16 @@ import React, {useState, useEffect } from 'react'
 import Axios from 'axios';
 
 
-function Psc1() {
-const [search, setSearch] = useState('')
+function Itw2() {
+  const [search, setSearch] = useState('')
 const[it_list, setit_list] = useState([]);
 
   useEffect(()=>{
-    Axios.get("http://localhost:4001/Psc1").then((response)=>{
+    Axios.get("http://localhost:4001/Itw2").then((response)=>{
       setit_list(response.data)
     })
    }, [])
+
    return(
     <div>
       <div>
@@ -34,11 +35,12 @@ const[it_list, setit_list] = useState([]);
                           <iframe className="embed-responsive-item" src={val.Videourl} title="YouTube video" allowfullscreen="allowfullscreen"></iframe>
                       </div>
 
-<div className="card-body">
+                        <div className="card-body">
                           <div className="media">
                               
                               <div className="media-body">
                                   <h5 className="mt-0"><span className="badge badge-dark course">{val.CourseID}</span> <span className="badge badge-info course"></span></h5>
+                                  <p className="of">  <p>Open a PDF file <a href="https://e-school.kmutt.ac.th/elibrary/Upload/EBook/DSIL_Lib_E1312881659.pdf" target="_blank">Click Here</a>.</p> {val.Urlpdf}</p>
                                   <p className="of">{val.Description}</p>
                               </div>
                           </div>
@@ -62,6 +64,7 @@ const[it_list, setit_list] = useState([]);
                        
                           <div className="media-body">
                               <h5 className="mt-0"><span className="badge badge-dark course">{val.CourseID}</span> <span className="badge badge-info course"></span></h5>
+                              <p className="of">  <p>Open a PDF file <a href="https://e-school.kmutt.ac.th/elibrary/Upload/EBook/DSIL_Lib_E1312881659.pdf" target="_blank">Click Here</a>.</p> {val.Urlpdf}</p>
                               <p className="of">{val.Description}</p>
                           </div>
                       </div>
@@ -82,4 +85,4 @@ const[it_list, setit_list] = useState([]);
 
 
 
-export default Psc1
+export default Itw2

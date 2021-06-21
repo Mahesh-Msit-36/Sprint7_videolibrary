@@ -1,9 +1,9 @@
 import React, {useState, useEffect } from 'react'
-import './Psc.css'
+import './Cspp.css'
 
 import Axios from 'axios';
 
-function Psc() {
+function Cspp1() {
   
 
     const[VidId, setVidId] = useState('');
@@ -13,13 +13,13 @@ function Psc() {
     const[fb_list, setfb_List] = useState([]);
   
     useEffect(()=>{
-      Axios.get("http://localhost:4001/Psc1").then((response)=>{
+      Axios.get("http://localhost:4001/cspp").then((response)=>{
         setfb_List(response.data)
       })
     }, [])
   
     var handleSubmit = () =>{
-      Axios.post('http://localhost:4001/Psc1', {VidId: VidId, CourseID: CourseID, Videourl:Videourl,  Description:Description }).then(()=>{
+      Axios.post('http://localhost:4001/cspp', {VidId: VidId, CourseID: CourseID, Videourl:Videourl,  Description:Description }).then(()=>{
           alert("success")
       });
       
@@ -30,7 +30,7 @@ function Psc() {
     return (
       <div>
         <div className="form text-center" >
-            <h1>PSC Form</h1>
+            <h1>CSPP Form</h1>
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
               Launch demo modal
             </button>
@@ -51,7 +51,8 @@ function Psc() {
                           
                         <label> VidId </label>
                         <br/>
-                        <input type="text" className="f"  placeholder="VidId..." name="VidId" onChange={(e)=>{setVidId(e.target.value)}} required />
+                        <input type="text" className="f"  placeholder="Vid
+                        Id..." name="VidId" onChange={(e)=>{setVidId(e.target.value)}} required />
                         </div>
                        
 
@@ -68,9 +69,7 @@ function Psc() {
                         <input type="text" className="h"  placeholder=" Videourl..." name="Videourl" onChange={(e)=>{setVideourl(e.target.value)}} required />
                         </div>
                         
-                        
-    
-                        
+           
 
                         <div>
                         <label> Description</label>
@@ -98,5 +97,5 @@ function Psc() {
     )
 }
 
-export default Psc
+export default Cspp1
 

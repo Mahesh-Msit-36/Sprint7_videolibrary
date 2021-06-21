@@ -1,9 +1,9 @@
 import React, {useState, useEffect } from 'react'
-import './Psc.css'
+import './Cnff.css'
 
 import Axios from 'axios';
 
-function Psc() {
+function Cn() {
   
 
     const[VidId, setVidId] = useState('');
@@ -13,26 +13,26 @@ function Psc() {
     const[fb_list, setfb_List] = useState([]);
   
     useEffect(()=>{
-      Axios.get("http://localhost:4001/Psc1").then((response)=>{
+      Axios.get("http://localhost:4001/cnf").then((response)=>{
         setfb_List(response.data)
       })
     }, [])
   
     var handleSubmit = () =>{
-      Axios.post('http://localhost:4001/Psc1', {VidId: VidId, CourseID: CourseID, Videourl:Videourl,  Description:Description }).then(()=>{
+      Axios.post('http://localhost:4001/cnf', {VidId: VidId, CourseID: CourseID, Videourl:Videourl,  Description:Description }).then(()=>{
           alert("success")
       });
       
-      setfb_List([...fb_list, {VidId: VidId, CourseID: CourseID, Videourl:Videourl,  Description:Description }]);
+      setfb_List([...fb_list, {VidId: VidId, CourseID: CourseID, Videourl:Videourl, Description:Description }]);
       console.log(fb_list)
     };
     
     return (
       <div>
         <div className="form text-center" >
-            <h1>PSC Form</h1>
+            <h1>CNF Form</h1>
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-              Launch demo modal
+              Upload Data
             </button>
 
 
@@ -67,9 +67,7 @@ function Psc() {
                         <br/>
                         <input type="text" className="h"  placeholder=" Videourl..." name="Videourl" onChange={(e)=>{setVideourl(e.target.value)}} required />
                         </div>
-                        
-                        
-    
+
                         
 
                         <div>
@@ -98,5 +96,5 @@ function Psc() {
     )
 }
 
-export default Psc
+export default Cn
 

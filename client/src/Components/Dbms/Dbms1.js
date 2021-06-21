@@ -1,39 +1,52 @@
 import React, {useState, useEffect } from 'react'
-import './Feedback.css'
+import './Dbms.css'
 
 import Axios from 'axios';
 
-function Cn() {
+function Dbms1() {
   
 
     const[VidId, setVidId] = useState('');
     const[CourseID, setCourseID] = useState('');
     const[Videourl, setVideourl] = useState('');
-    const[durationmints, setdurationmints] = useState('');
-    const[ Datecreated, setDatecreated] = useState('');
-    const[Type, setType] = useState('');
+    
     const[Description, setDescription] = useState('');
     const[fb_list, setfb_List] = useState([]);
   
     useEffect(()=>{
-      Axios.get("http://localhost:4001/api/get").then((response)=>{
+      Axios.get("http://localhost:4001/Dbms2").then((response)=>{
         setfb_List(response.data)
       })
     }, [])
   
     var handleSubmit = () =>{
-      Axios.post('http://localhost:4001/api/insert', {VidId: VidId, CourseID: CourseID, Videourl:Videourl, durationmints:durationmints, Datecreated:Datecreated, Type:Type, Description:Description }).then(()=>{
+      Axios.post('http://localhost:4001/Dbms2', {VidId: VidId, CourseID: CourseID, Videourl:Videourl,  Description:Description }).then(()=>{
           alert("success")
       });
       
-      setfb_List([...fb_list, {VidId: VidId, CourseID: CourseID, Videourl:Videourl, durationmints:durationmints, Datecreated:Datecreated, Type:Type, Description:Description }]);
+      setfb_List([...fb_list, {VidId: VidId, CourseID: CourseID, Videourl:Videourl,  Description:Description }]);
       console.log(fb_list)
     };
     
     return (
-        
+      <div>
         <div className="form text-center" >
             <h1>DBMS Form</h1>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              Upload Data
+            </button>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body"></div>
             <form onSubmit={handleSubmit} className="form_fill">
                         <div>
                           
@@ -57,26 +70,6 @@ function Cn() {
                         </div>
                         
                         
-                        <div>
-                        <label>Durationmints </label>
-                        <br/>
-                        <input type="text" className="j"  placeholder=" durationmints..." name="durationmints" onChange={(e)=>{setdurationmints(e.target.value)}} required />
-                        </div>
-                        
-                        
-                        <div>
-                        <label>Date created </label>
-                        <br/>
-                        <input type="date" className="k"  placeholder=" Datecreated..." name="Datecreated" onChange={(e)=>{setDatecreated(e.target.value)}} required />
-                        </div>
-                        
-                        
-                        <div>
-                        <label>Type</label>
-                        <br/>
-                        <input type="text" className="l"  placeholder=" Type..." name="Type" onChange={(e)=>{setType(e.target.value)}} required />
-                        </div>
-                        
 
                         <div>
                         <label> Description</label>
@@ -89,12 +82,20 @@ function Cn() {
                 <button type="submit" className="btn btn-primary">Submit</button>
             </form>
 
-            
-            <hr/>
-        </div>
+            </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<hr/>
+</div>
+        
       
     )
 }
 
-export default Cn
+export default Dbms1
 
